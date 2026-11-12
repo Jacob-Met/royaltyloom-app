@@ -20,6 +20,7 @@ import sandbox_readiness
 from creator_statement import render_statement, filename_for, package_filename_for, statement_package, recipient_payment, recipient_text_filter, money
 from reporting_period import parse_period, source_dates, selected_source, period_caption
 import advance_recovery
+import split_routes
 import demo_mode
 from local_ai_runtime import LocalAIRuntime
 
@@ -1843,8 +1844,13 @@ class Handler(BaseHTTPRequestHandler):
             if demo_mode.ENABLED: content = demo_mode.inject(content)
             self.send_response(200); self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Cache-Control", "no-store")
-            self.send_header("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; object-src 'none'; base-uri 'none'")
+            self.send_header("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; connect-src 'self'; object-src 'none'; base-uri 'none'")
             self.send_header("Content-Length", str(len(content))); self.end_headers(); self.wfile.write(content); return
+        if self.path.split("?")[0] in ("/splitwheel.js", "/api/split/works", "/api/split/sample"):
+            def _saved():
+                with db_connect() as con:
+                    return statement_history.list_saved(con, "", "")
+            return split_routes.get(self, _saved)
         if demo_mode.ENABLED and self.path == "/demo/salt-marsh-october-sales.csv":
             content = demo_mode.sample_csv()
             self.send_response(200); self.send_header("Content-Type", "text/csv; charset=utf-8")
@@ -1893,6 +1899,8 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         if not self.trusted_local_host():
             return self.respond(421, {"error": "Use a local loopback address to open Royalty Loom."})
+        if self.path in ("/api/split/credits", "/api/split/correct", "/api/split/listen"):
+            return split_routes.post(self)
         if self.path not in ("/api/statements/payment-copy","/api/statements/refresh","/api/desk/export","/api/desk/preview","/api/desk/restore","/api/source-period","/api/review/export","/api/review/preview","/api/review/restore","/api/sandbox-check","/api/local-ai/start","/api/local-ai/stop","/api/source-review/exclude","/api/preview","/api/assist","/api/agreement/quoted-review","/api/contacts/preview","/api/payout","/api/batch","/api/refresh","/api/statements","/api/statement","/api/statement-package","/api/csv-map","/api/source-preview"):
             return self.respond(404, {"error": "Not found"})
         if self.headers.get("Content-Type", "").split(";")[0].strip() != "application/json":
