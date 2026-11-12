@@ -20,6 +20,7 @@ import sandbox_readiness
 from creator_statement import render_statement, filename_for, package_filename_for, statement_package, recipient_payment, recipient_text_filter, money
 from reporting_period import parse_period, source_dates, selected_source, period_caption
 import advance_recovery
+import demo_mode
 from local_ai_runtime import LocalAIRuntime
 
 LOCAL_AI = LocalAIRuntime()
@@ -1191,7 +1192,10 @@ def ai_suggest(agreement: str) -> dict:
     token = None if using_local else os.environ.get("ROYALTY_LOOM_AI_KEY")
     if token: headers["Authorization"] = "Bearer " + token
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, data=body, headers=headers, method="POST"), timeout=25) as response:
+        if demo_mode.ENABLED:
+            raw = demo_mode.fake_model(body)
+        else:
+          with urllib.request.urlopen(urllib.request.Request(url, data=body, headers=headers, method="POST"), timeout=25) as response:
             raw = json.load(response)
         content = raw["choices"][0]["message"]["content"]
         obj = json.loads(content)
@@ -1443,6 +1447,8 @@ def import_review(payload, *, restore=False):
 
 
 def paypal_request(url, method, data=None, token=None, basic=None):
+    if demo_mode.ENABLED:
+        return demo_mode.fake_paypal(url, method, data, token, basic)
     headers = {"Accept": "application/json"}
     if basic:
         headers["Authorization"] = "Basic " + base64.b64encode(basic.encode()).decode()
@@ -1834,9 +1840,14 @@ class Handler(BaseHTTPRequestHandler):
             return self.respond(421, {"error": "Use a local loopback address to open Royalty Loom."})
         if self.path in ("/", "/index.html"):
             content = (HERE / "index.html").read_bytes()
+            if demo_mode.ENABLED: content = demo_mode.inject(content)
             self.send_response(200); self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Cache-Control", "no-store")
             self.send_header("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; object-src 'none'; base-uri 'none'")
+            self.send_header("Content-Length", str(len(content))); self.end_headers(); self.wfile.write(content); return
+        if demo_mode.ENABLED and self.path == "/demo/salt-marsh-october-sales.csv":
+            content = demo_mode.sample_csv()
+            self.send_response(200); self.send_header("Content-Type", "text/csv; charset=utf-8")
             self.send_header("Content-Length", str(len(content))); self.end_headers(); self.wfile.write(content); return
         if self.path == "/fonts/BricolageGrotesque.ttf":
             content = (HERE / "fonts" / "BricolageGrotesque.ttf").read_bytes()
@@ -2016,8 +2027,14 @@ def main():
                          help="Run the local server without opening a browser")
     browser.add_argument("--open-browser", dest="open_browser", action="store_true",
                          help="Open the desk even when PORT is supplied by the environment")
+    parser.add_argument("--demo", action="store_true",
+                        help="Simulated demo: fake PayPal Sandbox and a canned AI answer, no keys or model needed")
     parser.set_defaults(open_browser=None)
     args = parser.parse_args()
+    if args.demo:
+        global DB
+        DB = demo_mode.enable()
+        print("Simulated demo: no real PayPal call and no AI model. Data is kept in " + str(DB.parent), flush=True)
     if args.import_history is not None:
         if "ROYALTY_LOOM_DB" in os.environ:
             parser.error("Unset ROYALTY_LOOM_DB before importing into persistent storage; the override remains available to open an existing database directly.")

@@ -2,6 +2,24 @@
 
 Turn a signed royalty agreement and a sales export into to-the-cent creator statements, then pay everyone through PayPal after one human authorization.
 
+## Try the simulated demo
+
+```sh
+python3 app.py --demo --no-browser --port 5231
+```
+
+Open <http://127.0.0.1:5231>. No PayPal credentials and no AI model are needed (Python 3.10+, standard library only).
+
+1. Click **Load sample project** (the badge at the bottom right). It fills in the Salt Marsh Sessions agreement, the October period and a sales CSV.
+2. Open **Local AI options** and choose **Suggest splits from agreement**. After a short pause the canned answer proposes three creators, each with the quoted sentence.
+3. Tick the review box and choose **Use these shares**. Recipient emails are prefilled for the sample.
+4. Open **Sales** and choose **Update statement** to see the to-the-cent statements ($1,864.20 net for creators).
+5. Choose **Review payouts**, tick the review box, type `AUTHORIZE SANDBOX` and choose **Authorize payment**.
+6. Choose **Refresh status** to read the batch back; each recipient shows SUCCESS.
+
+Simulated: the PayPal OAuth and Payouts calls are answered in-process by a small fake (nothing leaves your machine), the AI answer is fixed for the sample agreement, and data goes to a throwaway database. A badge reading "Simulated demo: no real PayPal call" stays on screen. The real PayPal Sandbox and local-model setup is described below.
+
+
 Royalty Loom is a local royalties desk for small creative teams: a band, an illustrator and a writer, a few people selling a digital product. It is organized around four jobs: **Statement**, **Sales**, **Splits** and **Payouts**. Each collaborator can see the sentence in the agreement that gives them their share, which sales and deductions produced the amount, and what the payment provider reported.
 
 ## How it uses AI
