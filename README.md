@@ -76,3 +76,7 @@ One process-management test in `test_local_ai_runtime.py` assumes Linux.
 MIT. See [LICENSE](LICENSE). The bundled Bricolage Grotesque font is under the SIL Open Font License (`fonts/OFL.txt`).
 
 Source: <https://github.com/Jacob-Met/royaltyloom-app>
+
+## Light and dark mode
+
+The interface follows the system colour scheme, and the round button in the bottom-right corner switches between light and dark. The second colour sheet is generated from the first with `tools/retheme.py`, so the two always share the same layout.
