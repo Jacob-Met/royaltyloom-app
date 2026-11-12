@@ -1,0 +1,3 @@
+Purchase ID,Item Name,Sale Price ($),Fees ($),Net Total ($),Refunded?,Fully Refunded?,Disputed?,Partial Refund ($),Taxes ($),Shipping ($),Affiliate commission ($),Free trial purchase?,Pre-Order Authorization?,Buyer Currency,Buyer Total
+G-1,"Atlas, digital",25.00,3.10,21.90,0,0,0,0,0,0,0,0,0,EUR,23.12
+G-2,Score PDF,14.49,1.95,12.54,0,0,0,0,0,0,0,0,0,,

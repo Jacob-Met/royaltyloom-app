@@ -1,0 +1,295 @@
+{
+  "decision": "Can a retained stronger local model distinguish conditions on administration from conditions on fixed royalty entitlement, using complete source, without weakening the manual-review safeguard?",
+  "cases": [
+    {
+      "id": "address-administrative",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "Sana Brook sends a postal address once the mailing service confirms its route.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nSana Brook sends a postal address once the mailing service confirms its route.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": true,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "address-entitlement",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "Sana Brook earns the stated share only once the mailing service confirms its route.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nSana Brook earns the stated share only once the mailing service confirms its route.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": false,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "restrictive",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "proof-administrative",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "Jonas Reed approves the printed cover before the publisher posts a proof copy.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nJonas Reed approves the printed cover before the publisher posts a proof copy.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": true,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "proof-entitlement",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "Jonas Reed becomes entitled to the stated share only after approving the printed cover.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nJonas Reed becomes entitled to the stated share only after approving the printed cover.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": false,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "restrictive",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "participation-administrative",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "Attendance at the launch is required to receive a complimentary poster.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nAttendance at the launch is required to receive a complimentary poster.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": true,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "participation-entitlement",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "Attendance at the launch is required to receive any royalty entitlement.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nAttendance at the launch is required to receive any royalty entitlement.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": false,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "restrictive",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "volume-administrative",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "After the first two hundred downloads, the operator sends a readership summary.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nAfter the first two hundred downloads, the operator sends a readership summary.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": true,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "volume-entitlement",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "The stated royalty allocations take effect only after the first two hundred downloads.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nThe stated royalty allocations take effect only after the first two hundred downloads.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": false,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "restrictive",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "renewal-administrative",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "The newsletter mailing permission expires at the end of November; its renewal affects only delivery of promotional news.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nThe newsletter mailing permission expires at the end of November; its renewal affects only delivery of promotional news.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": true,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "renewal-entitlement",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "The stated royalty entitlements expire at the end of November and require a new signed allocation schedule before December earnings.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nThe stated royalty entitlements expire at the end of November and require a new signed allocation schedule before December earnings.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": false,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "restrictive",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "approval-administrative",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "The operator waits for approval of the postal label before mailing the annual paper statement.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nThe operator waits for approval of the postal label before mailing the annual paper statement.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": true,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    },
+    {
+      "id": "approval-entitlement",
+      "clauses": [
+        "This schedule covers the Willow Room recording project.",
+        "Sana Brook receives 65% of net receipts.",
+        "Jonas Reed receives 35% of net receipts.",
+        "The operator records sales, refunds and platform fees in the monthly ledger.",
+        "The operator waits for approval of the project before either creator can earn the stated royalties.",
+        "Statements identify the recording project and the reporting month.",
+        "The reporting month for this review is December 2026."
+      ],
+      "agreement": "This schedule covers the Willow Room recording project.\nSana Brook receives 65% of net receipts.\nJonas Reed receives 35% of net receipts.\nThe operator records sales, refunds and platform fees in the monthly ledger.\nThe operator waits for approval of the project before either creator can earn the stated royalties.\nStatements identify the recording project and the reporting month.\nThe reporting month for this review is December 2026.",
+      "expected": {
+        "all_grants_supported": false,
+        "context_effects": [
+          "neutral",
+          "neutral",
+          "restrictive",
+          "neutral",
+          "neutral"
+        ]
+      },
+      "target_clause_index": 4
+    }
+  ],
+  "method": "Twelve prospective synthetic whole-agreement cases, six contrast pairs. Existing context-effects system wording and typed output retained. Expectations never sent to model. Primary result is first response, with false acceptance and false refusal separate; reversed order repeats test stability only. No prompt or case changes after first inference. Current app manual-review behavior is a separate baseline, not model accuracy.",
+  "status": "Frozen before any inference"
+}

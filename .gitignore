@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-*
+.env
+.venv/
+.venv-native/
+node_modules/
+.DS_Store
+ui-check.js
+*.log
+screenshots/

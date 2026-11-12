@@ -1,0 +1,1923 @@
+[
+  {
+    "id": "ordinary-cadence",
+    "agreement": "This schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nStatements are issued quarterly.",
+    "names": [
+      "Nera Sol",
+      "Ivo Vale",
+      "Mira Stone",
+      "Theo Reed",
+      "Lina Moss",
+      "Oren Hart",
+      "Cleo Finch",
+      "Remy Shaw",
+      "Ada Lane",
+      "Bea Park",
+      "Cy Wells",
+      "Dee Hale",
+      "Eli North",
+      "Fia Lake",
+      "Gus Pine",
+      "Hope West"
+    ],
+    "bps": [
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625
+    ],
+    "evidence": [
+      "Nera Sol receives 6.25% of net receipts.",
+      "Ivo Vale receives 6.25% of net receipts.",
+      "Mira Stone receives 6.25% of net receipts.",
+      "Theo Reed receives 6.25% of net receipts.",
+      "Lina Moss receives 6.25% of net receipts.",
+      "Oren Hart receives 6.25% of net receipts.",
+      "Cleo Finch receives 6.25% of net receipts.",
+      "Remy Shaw receives 6.25% of net receipts.",
+      "Ada Lane receives 6.25% of net receipts.",
+      "Bea Park receives 6.25% of net receipts.",
+      "Cy Wells receives 6.25% of net receipts.",
+      "Dee Hale receives 6.25% of net receipts.",
+      "Eli North receives 6.25% of net receipts.",
+      "Fia Lake receives 6.25% of net receipts.",
+      "Gus Pine receives 6.25% of net receipts.",
+      "Hope West receives 6.25% of net receipts."
+    ],
+    "manual_collaborators": [
+      {
+        "name": "Nera Sol",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Nera Sol receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ivo Vale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ivo Vale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Mira Stone",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Mira Stone receives 6.25% of net receipts."
+      },
+      {
+        "name": "Theo Reed",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Theo Reed receives 6.25% of net receipts."
+      },
+      {
+        "name": "Lina Moss",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Lina Moss receives 6.25% of net receipts."
+      },
+      {
+        "name": "Oren Hart",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Oren Hart receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cleo Finch",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cleo Finch receives 6.25% of net receipts."
+      },
+      {
+        "name": "Remy Shaw",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Remy Shaw receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ada Lane",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ada Lane receives 6.25% of net receipts."
+      },
+      {
+        "name": "Bea Park",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Bea Park receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cy Wells",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cy Wells receives 6.25% of net receipts."
+      },
+      {
+        "name": "Dee Hale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Dee Hale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Eli North",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Eli North receives 6.25% of net receipts."
+      },
+      {
+        "name": "Fia Lake",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Fia Lake receives 6.25% of net receipts."
+      },
+      {
+        "name": "Gus Pine",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Gus Pine receives 6.25% of net receipts."
+      },
+      {
+        "name": "Hope West",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Hope West receives 6.25% of net receipts."
+      }
+    ],
+    "expected_preview_status": 200,
+    "observed_preview": {
+      "status": 200,
+      "body": {
+        "project": "Copper Archive",
+        "currency": "USD",
+        "agreement": "This schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nStatements are issued quarterly.",
+        "transactions": [
+          {
+            "id": "sale-1",
+            "type": "sale",
+            "cents": 10000,
+            "description": ""
+          }
+        ],
+        "collaborators": [
+          {
+            "name": "Nera Sol",
+            "email": "",
+            "evidence": "Nera Sol receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ivo Vale",
+            "email": "",
+            "evidence": "Ivo Vale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Mira Stone",
+            "email": "",
+            "evidence": "Mira Stone receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Theo Reed",
+            "email": "",
+            "evidence": "Theo Reed receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Lina Moss",
+            "email": "",
+            "evidence": "Lina Moss receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Oren Hart",
+            "email": "",
+            "evidence": "Oren Hart receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cleo Finch",
+            "email": "",
+            "evidence": "Cleo Finch receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Remy Shaw",
+            "email": "",
+            "evidence": "Remy Shaw receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ada Lane",
+            "email": "",
+            "evidence": "Ada Lane receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Bea Park",
+            "email": "",
+            "evidence": "Bea Park receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cy Wells",
+            "email": "",
+            "evidence": "Cy Wells receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Dee Hale",
+            "email": "",
+            "evidence": "Dee Hale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Eli North",
+            "email": "",
+            "evidence": "Eli North receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Fia Lake",
+            "email": "",
+            "evidence": "Fia Lake receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Gus Pine",
+            "email": "",
+            "evidence": "Gus Pine receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Hope West",
+            "email": "",
+            "evidence": "Hope West receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          }
+        ],
+        "gross_cents": 10000,
+        "refund_cents": 0,
+        "fee_cents": 0,
+        "net_cents": 10000,
+        "gross": "100.00",
+        "refunds": "0.00",
+        "fees": "0.00",
+        "net": "100.00",
+        "allocation_method": "Largest remainder on net USD cents; ties resolved by collaborator name; refunds and fees deducted before split.",
+        "illustrative": false,
+        "statement_hash": "d6bce86dc94e78a0349e726696cb2344f051274becdeefe1307cafe2eae59ea6",
+        "project_id": "legacy-9103edb3c989addab33bc13aa8838a04b572318797878964396fc4625f065ee4",
+        "allocation_name_order": [
+          8,
+          9,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          1,
+          4,
+          2,
+          0,
+          5,
+          7,
+          3
+        ],
+        "statement_context": {},
+        "source_review": {
+          "rows": [],
+          "same_statement": null,
+          "compared_statements": 0,
+          "unchanged_ids": [],
+          "changed_ids": []
+        }
+      }
+    }
+  },
+  {
+    "id": "proposal-header",
+    "agreement": "The following allocations are draft proposals awaiting signed agreement.\nThis schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.",
+    "names": [],
+    "bps": [],
+    "evidence": [],
+    "manual_collaborators": [
+      {
+        "name": "Nera Sol",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Nera Sol receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ivo Vale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ivo Vale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Mira Stone",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Mira Stone receives 6.25% of net receipts."
+      },
+      {
+        "name": "Theo Reed",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Theo Reed receives 6.25% of net receipts."
+      },
+      {
+        "name": "Lina Moss",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Lina Moss receives 6.25% of net receipts."
+      },
+      {
+        "name": "Oren Hart",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Oren Hart receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cleo Finch",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cleo Finch receives 6.25% of net receipts."
+      },
+      {
+        "name": "Remy Shaw",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Remy Shaw receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ada Lane",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ada Lane receives 6.25% of net receipts."
+      },
+      {
+        "name": "Bea Park",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Bea Park receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cy Wells",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cy Wells receives 6.25% of net receipts."
+      },
+      {
+        "name": "Dee Hale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Dee Hale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Eli North",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Eli North receives 6.25% of net receipts."
+      },
+      {
+        "name": "Fia Lake",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Fia Lake receives 6.25% of net receipts."
+      },
+      {
+        "name": "Gus Pine",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Gus Pine receives 6.25% of net receipts."
+      },
+      {
+        "name": "Hope West",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Hope West receives 6.25% of net receipts."
+      }
+    ],
+    "expected_preview_status": 400,
+    "observed_preview": {
+      "status": 200,
+      "body": {
+        "project": "Copper Archive",
+        "currency": "USD",
+        "agreement": "The following allocations are draft proposals awaiting signed agreement.\nThis schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.",
+        "transactions": [
+          {
+            "id": "sale-1",
+            "type": "sale",
+            "cents": 10000,
+            "description": ""
+          }
+        ],
+        "collaborators": [
+          {
+            "name": "Nera Sol",
+            "email": "",
+            "evidence": "Nera Sol receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ivo Vale",
+            "email": "",
+            "evidence": "Ivo Vale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Mira Stone",
+            "email": "",
+            "evidence": "Mira Stone receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Theo Reed",
+            "email": "",
+            "evidence": "Theo Reed receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Lina Moss",
+            "email": "",
+            "evidence": "Lina Moss receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Oren Hart",
+            "email": "",
+            "evidence": "Oren Hart receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cleo Finch",
+            "email": "",
+            "evidence": "Cleo Finch receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Remy Shaw",
+            "email": "",
+            "evidence": "Remy Shaw receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ada Lane",
+            "email": "",
+            "evidence": "Ada Lane receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Bea Park",
+            "email": "",
+            "evidence": "Bea Park receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cy Wells",
+            "email": "",
+            "evidence": "Cy Wells receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Dee Hale",
+            "email": "",
+            "evidence": "Dee Hale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Eli North",
+            "email": "",
+            "evidence": "Eli North receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Fia Lake",
+            "email": "",
+            "evidence": "Fia Lake receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Gus Pine",
+            "email": "",
+            "evidence": "Gus Pine receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Hope West",
+            "email": "",
+            "evidence": "Hope West receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          }
+        ],
+        "gross_cents": 10000,
+        "refund_cents": 0,
+        "fee_cents": 0,
+        "net_cents": 10000,
+        "gross": "100.00",
+        "refunds": "0.00",
+        "fees": "0.00",
+        "net": "100.00",
+        "allocation_method": "Largest remainder on net USD cents; ties resolved by collaborator name; refunds and fees deducted before split.",
+        "illustrative": false,
+        "statement_hash": "f03156ebb8d3c33b6d5921827664d74f32bd084cb7d2fc3f7af1e2ff92dbfe8d",
+        "project_id": "legacy-9103edb3c989addab33bc13aa8838a04b572318797878964396fc4625f065ee4",
+        "allocation_name_order": [
+          8,
+          9,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          1,
+          4,
+          2,
+          0,
+          5,
+          7,
+          3
+        ],
+        "statement_context": {},
+        "source_review": {
+          "rows": [],
+          "same_statement": null,
+          "compared_statements": 0,
+          "unchanged_ids": [],
+          "changed_ids": []
+        }
+      }
+    }
+  },
+  {
+    "id": "superseded-catalog",
+    "agreement": "This schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nThe allocations above are replaced in their entirety by a later schedule, which is not included here.",
+    "names": [],
+    "bps": [],
+    "evidence": [],
+    "manual_collaborators": [
+      {
+        "name": "Nera Sol",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Nera Sol receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ivo Vale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ivo Vale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Mira Stone",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Mira Stone receives 6.25% of net receipts."
+      },
+      {
+        "name": "Theo Reed",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Theo Reed receives 6.25% of net receipts."
+      },
+      {
+        "name": "Lina Moss",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Lina Moss receives 6.25% of net receipts."
+      },
+      {
+        "name": "Oren Hart",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Oren Hart receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cleo Finch",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cleo Finch receives 6.25% of net receipts."
+      },
+      {
+        "name": "Remy Shaw",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Remy Shaw receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ada Lane",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ada Lane receives 6.25% of net receipts."
+      },
+      {
+        "name": "Bea Park",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Bea Park receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cy Wells",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cy Wells receives 6.25% of net receipts."
+      },
+      {
+        "name": "Dee Hale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Dee Hale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Eli North",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Eli North receives 6.25% of net receipts."
+      },
+      {
+        "name": "Fia Lake",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Fia Lake receives 6.25% of net receipts."
+      },
+      {
+        "name": "Gus Pine",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Gus Pine receives 6.25% of net receipts."
+      },
+      {
+        "name": "Hope West",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Hope West receives 6.25% of net receipts."
+      }
+    ],
+    "expected_preview_status": 400,
+    "observed_preview": {
+      "status": 200,
+      "body": {
+        "project": "Copper Archive",
+        "currency": "USD",
+        "agreement": "This schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nThe allocations above are replaced in their entirety by a later schedule, which is not included here.",
+        "transactions": [
+          {
+            "id": "sale-1",
+            "type": "sale",
+            "cents": 10000,
+            "description": ""
+          }
+        ],
+        "collaborators": [
+          {
+            "name": "Nera Sol",
+            "email": "",
+            "evidence": "Nera Sol receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ivo Vale",
+            "email": "",
+            "evidence": "Ivo Vale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Mira Stone",
+            "email": "",
+            "evidence": "Mira Stone receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Theo Reed",
+            "email": "",
+            "evidence": "Theo Reed receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Lina Moss",
+            "email": "",
+            "evidence": "Lina Moss receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Oren Hart",
+            "email": "",
+            "evidence": "Oren Hart receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cleo Finch",
+            "email": "",
+            "evidence": "Cleo Finch receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Remy Shaw",
+            "email": "",
+            "evidence": "Remy Shaw receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ada Lane",
+            "email": "",
+            "evidence": "Ada Lane receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Bea Park",
+            "email": "",
+            "evidence": "Bea Park receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cy Wells",
+            "email": "",
+            "evidence": "Cy Wells receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Dee Hale",
+            "email": "",
+            "evidence": "Dee Hale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Eli North",
+            "email": "",
+            "evidence": "Eli North receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Fia Lake",
+            "email": "",
+            "evidence": "Fia Lake receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Gus Pine",
+            "email": "",
+            "evidence": "Gus Pine receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Hope West",
+            "email": "",
+            "evidence": "Hope West receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          }
+        ],
+        "gross_cents": 10000,
+        "refund_cents": 0,
+        "fee_cents": 0,
+        "net_cents": 10000,
+        "gross": "100.00",
+        "refunds": "0.00",
+        "fees": "0.00",
+        "net": "100.00",
+        "allocation_method": "Largest remainder on net USD cents; ties resolved by collaborator name; refunds and fees deducted before split.",
+        "illustrative": false,
+        "statement_hash": "5e8a4fb4d50bf61a995c13c62166d2b8ba948d0c59f64329941df09374455f9b",
+        "project_id": "legacy-9103edb3c989addab33bc13aa8838a04b572318797878964396fc4625f065ee4",
+        "allocation_name_order": [
+          8,
+          9,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          1,
+          4,
+          2,
+          0,
+          5,
+          7,
+          3
+        ],
+        "statement_context": {},
+        "source_review": {
+          "rows": [],
+          "same_statement": null,
+          "compared_statements": 0,
+          "unchanged_ids": [],
+          "changed_ids": []
+        }
+      }
+    }
+  },
+  {
+    "id": "individual-following-condition",
+    "agreement": "This schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nHope West's stated rate applies only after she signs the distribution license.",
+    "names": [],
+    "bps": [],
+    "evidence": [],
+    "manual_collaborators": [
+      {
+        "name": "Nera Sol",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Nera Sol receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ivo Vale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ivo Vale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Mira Stone",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Mira Stone receives 6.25% of net receipts."
+      },
+      {
+        "name": "Theo Reed",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Theo Reed receives 6.25% of net receipts."
+      },
+      {
+        "name": "Lina Moss",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Lina Moss receives 6.25% of net receipts."
+      },
+      {
+        "name": "Oren Hart",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Oren Hart receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cleo Finch",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cleo Finch receives 6.25% of net receipts."
+      },
+      {
+        "name": "Remy Shaw",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Remy Shaw receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ada Lane",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ada Lane receives 6.25% of net receipts."
+      },
+      {
+        "name": "Bea Park",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Bea Park receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cy Wells",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cy Wells receives 6.25% of net receipts."
+      },
+      {
+        "name": "Dee Hale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Dee Hale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Eli North",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Eli North receives 6.25% of net receipts."
+      },
+      {
+        "name": "Fia Lake",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Fia Lake receives 6.25% of net receipts."
+      },
+      {
+        "name": "Gus Pine",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Gus Pine receives 6.25% of net receipts."
+      },
+      {
+        "name": "Hope West",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Hope West receives 6.25% of net receipts."
+      }
+    ],
+    "expected_preview_status": 400,
+    "observed_preview": {
+      "status": 200,
+      "body": {
+        "project": "Copper Archive",
+        "currency": "USD",
+        "agreement": "This schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nHope West's stated rate applies only after she signs the distribution license.",
+        "transactions": [
+          {
+            "id": "sale-1",
+            "type": "sale",
+            "cents": 10000,
+            "description": ""
+          }
+        ],
+        "collaborators": [
+          {
+            "name": "Nera Sol",
+            "email": "",
+            "evidence": "Nera Sol receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ivo Vale",
+            "email": "",
+            "evidence": "Ivo Vale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Mira Stone",
+            "email": "",
+            "evidence": "Mira Stone receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Theo Reed",
+            "email": "",
+            "evidence": "Theo Reed receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Lina Moss",
+            "email": "",
+            "evidence": "Lina Moss receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Oren Hart",
+            "email": "",
+            "evidence": "Oren Hart receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cleo Finch",
+            "email": "",
+            "evidence": "Cleo Finch receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Remy Shaw",
+            "email": "",
+            "evidence": "Remy Shaw receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ada Lane",
+            "email": "",
+            "evidence": "Ada Lane receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Bea Park",
+            "email": "",
+            "evidence": "Bea Park receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cy Wells",
+            "email": "",
+            "evidence": "Cy Wells receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Dee Hale",
+            "email": "",
+            "evidence": "Dee Hale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Eli North",
+            "email": "",
+            "evidence": "Eli North receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Fia Lake",
+            "email": "",
+            "evidence": "Fia Lake receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Gus Pine",
+            "email": "",
+            "evidence": "Gus Pine receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Hope West",
+            "email": "",
+            "evidence": "Hope West receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          }
+        ],
+        "gross_cents": 10000,
+        "refund_cents": 0,
+        "fee_cents": 0,
+        "net_cents": 10000,
+        "gross": "100.00",
+        "refunds": "0.00",
+        "fees": "0.00",
+        "net": "100.00",
+        "allocation_method": "Largest remainder on net USD cents; ties resolved by collaborator name; refunds and fees deducted before split.",
+        "illustrative": false,
+        "statement_hash": "0b151b78dc8a9f32df96e1acf08f8782c283edf86c1cb355d109ce4fd25c1914",
+        "project_id": "legacy-9103edb3c989addab33bc13aa8838a04b572318797878964396fc4625f065ee4",
+        "allocation_name_order": [
+          8,
+          9,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          1,
+          4,
+          2,
+          0,
+          5,
+          7,
+          3
+        ],
+        "statement_context": {},
+        "source_review": {
+          "rows": [],
+          "same_statement": null,
+          "compared_statements": 0,
+          "unchanged_ids": [],
+          "changed_ids": []
+        }
+      }
+    }
+  },
+  {
+    "id": "collective-following-duration",
+    "agreement": "Nera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nThese rates apply only while the licensing agreement remains active.",
+    "names": [],
+    "bps": [],
+    "evidence": [],
+    "manual_collaborators": [
+      {
+        "name": "Nera Sol",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Nera Sol receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ivo Vale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ivo Vale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Mira Stone",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Mira Stone receives 6.25% of net receipts."
+      },
+      {
+        "name": "Theo Reed",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Theo Reed receives 6.25% of net receipts."
+      },
+      {
+        "name": "Lina Moss",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Lina Moss receives 6.25% of net receipts."
+      },
+      {
+        "name": "Oren Hart",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Oren Hart receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cleo Finch",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cleo Finch receives 6.25% of net receipts."
+      },
+      {
+        "name": "Remy Shaw",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Remy Shaw receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ada Lane",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ada Lane receives 6.25% of net receipts."
+      },
+      {
+        "name": "Bea Park",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Bea Park receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cy Wells",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cy Wells receives 6.25% of net receipts."
+      },
+      {
+        "name": "Dee Hale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Dee Hale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Eli North",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Eli North receives 6.25% of net receipts."
+      },
+      {
+        "name": "Fia Lake",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Fia Lake receives 6.25% of net receipts."
+      },
+      {
+        "name": "Gus Pine",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Gus Pine receives 6.25% of net receipts."
+      },
+      {
+        "name": "Hope West",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Hope West receives 6.25% of net receipts."
+      }
+    ],
+    "expected_preview_status": 400
+  },
+  {
+    "id": "collective-following-delivery",
+    "agreement": "Nera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nThe allocations are subject to the delivery of the masters.",
+    "names": [],
+    "bps": [],
+    "evidence": [],
+    "manual_collaborators": [
+      {
+        "name": "Nera Sol",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Nera Sol receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ivo Vale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ivo Vale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Mira Stone",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Mira Stone receives 6.25% of net receipts."
+      },
+      {
+        "name": "Theo Reed",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Theo Reed receives 6.25% of net receipts."
+      },
+      {
+        "name": "Lina Moss",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Lina Moss receives 6.25% of net receipts."
+      },
+      {
+        "name": "Oren Hart",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Oren Hart receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cleo Finch",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cleo Finch receives 6.25% of net receipts."
+      },
+      {
+        "name": "Remy Shaw",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Remy Shaw receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ada Lane",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ada Lane receives 6.25% of net receipts."
+      },
+      {
+        "name": "Bea Park",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Bea Park receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cy Wells",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cy Wells receives 6.25% of net receipts."
+      },
+      {
+        "name": "Dee Hale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Dee Hale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Eli North",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Eli North receives 6.25% of net receipts."
+      },
+      {
+        "name": "Fia Lake",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Fia Lake receives 6.25% of net receipts."
+      },
+      {
+        "name": "Gus Pine",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Gus Pine receives 6.25% of net receipts."
+      },
+      {
+        "name": "Hope West",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Hope West receives 6.25% of net receipts."
+      }
+    ],
+    "expected_preview_status": 400
+  },
+  {
+    "id": "collective-ordinary-cadence",
+    "agreement": "Nera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nThese rates apply quarterly.",
+    "names": [
+      "Nera Sol",
+      "Ivo Vale",
+      "Mira Stone",
+      "Theo Reed",
+      "Lina Moss",
+      "Oren Hart",
+      "Cleo Finch",
+      "Remy Shaw",
+      "Ada Lane",
+      "Bea Park",
+      "Cy Wells",
+      "Dee Hale",
+      "Eli North",
+      "Fia Lake",
+      "Gus Pine",
+      "Hope West"
+    ],
+    "bps": [
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625
+    ],
+    "evidence": [
+      "Nera Sol receives 6.25% of net receipts.",
+      "Ivo Vale receives 6.25% of net receipts.",
+      "Mira Stone receives 6.25% of net receipts.",
+      "Theo Reed receives 6.25% of net receipts.",
+      "Lina Moss receives 6.25% of net receipts.",
+      "Oren Hart receives 6.25% of net receipts.",
+      "Cleo Finch receives 6.25% of net receipts.",
+      "Remy Shaw receives 6.25% of net receipts.",
+      "Ada Lane receives 6.25% of net receipts.",
+      "Bea Park receives 6.25% of net receipts.",
+      "Cy Wells receives 6.25% of net receipts.",
+      "Dee Hale receives 6.25% of net receipts.",
+      "Eli North receives 6.25% of net receipts.",
+      "Fia Lake receives 6.25% of net receipts.",
+      "Gus Pine receives 6.25% of net receipts.",
+      "Hope West receives 6.25% of net receipts."
+    ],
+    "manual_collaborators": [
+      {
+        "name": "Nera Sol",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Nera Sol receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ivo Vale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ivo Vale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Mira Stone",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Mira Stone receives 6.25% of net receipts."
+      },
+      {
+        "name": "Theo Reed",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Theo Reed receives 6.25% of net receipts."
+      },
+      {
+        "name": "Lina Moss",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Lina Moss receives 6.25% of net receipts."
+      },
+      {
+        "name": "Oren Hart",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Oren Hart receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cleo Finch",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cleo Finch receives 6.25% of net receipts."
+      },
+      {
+        "name": "Remy Shaw",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Remy Shaw receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ada Lane",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ada Lane receives 6.25% of net receipts."
+      },
+      {
+        "name": "Bea Park",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Bea Park receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cy Wells",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cy Wells receives 6.25% of net receipts."
+      },
+      {
+        "name": "Dee Hale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Dee Hale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Eli North",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Eli North receives 6.25% of net receipts."
+      },
+      {
+        "name": "Fia Lake",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Fia Lake receives 6.25% of net receipts."
+      },
+      {
+        "name": "Gus Pine",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Gus Pine receives 6.25% of net receipts."
+      },
+      {
+        "name": "Hope West",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Hope West receives 6.25% of net receipts."
+      }
+    ],
+    "expected_preview_status": 200
+  },
+  {
+    "id": "administrative-license",
+    "agreement": "This schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nHope West will send her mailing address after she signs the distribution license.",
+    "names": [
+      "Nera Sol",
+      "Ivo Vale",
+      "Mira Stone",
+      "Theo Reed",
+      "Lina Moss",
+      "Oren Hart",
+      "Cleo Finch",
+      "Remy Shaw",
+      "Ada Lane",
+      "Bea Park",
+      "Cy Wells",
+      "Dee Hale",
+      "Eli North",
+      "Fia Lake",
+      "Gus Pine",
+      "Hope West"
+    ],
+    "bps": [
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625,
+      625
+    ],
+    "evidence": [
+      "Nera Sol receives 6.25% of net receipts.",
+      "Ivo Vale receives 6.25% of net receipts.",
+      "Mira Stone receives 6.25% of net receipts.",
+      "Theo Reed receives 6.25% of net receipts.",
+      "Lina Moss receives 6.25% of net receipts.",
+      "Oren Hart receives 6.25% of net receipts.",
+      "Cleo Finch receives 6.25% of net receipts.",
+      "Remy Shaw receives 6.25% of net receipts.",
+      "Ada Lane receives 6.25% of net receipts.",
+      "Bea Park receives 6.25% of net receipts.",
+      "Cy Wells receives 6.25% of net receipts.",
+      "Dee Hale receives 6.25% of net receipts.",
+      "Eli North receives 6.25% of net receipts.",
+      "Fia Lake receives 6.25% of net receipts.",
+      "Gus Pine receives 6.25% of net receipts.",
+      "Hope West receives 6.25% of net receipts."
+    ],
+    "manual_collaborators": [
+      {
+        "name": "Nera Sol",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Nera Sol receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ivo Vale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ivo Vale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Mira Stone",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Mira Stone receives 6.25% of net receipts."
+      },
+      {
+        "name": "Theo Reed",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Theo Reed receives 6.25% of net receipts."
+      },
+      {
+        "name": "Lina Moss",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Lina Moss receives 6.25% of net receipts."
+      },
+      {
+        "name": "Oren Hart",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Oren Hart receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cleo Finch",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cleo Finch receives 6.25% of net receipts."
+      },
+      {
+        "name": "Remy Shaw",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Remy Shaw receives 6.25% of net receipts."
+      },
+      {
+        "name": "Ada Lane",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Ada Lane receives 6.25% of net receipts."
+      },
+      {
+        "name": "Bea Park",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Bea Park receives 6.25% of net receipts."
+      },
+      {
+        "name": "Cy Wells",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Cy Wells receives 6.25% of net receipts."
+      },
+      {
+        "name": "Dee Hale",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Dee Hale receives 6.25% of net receipts."
+      },
+      {
+        "name": "Eli North",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Eli North receives 6.25% of net receipts."
+      },
+      {
+        "name": "Fia Lake",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Fia Lake receives 6.25% of net receipts."
+      },
+      {
+        "name": "Gus Pine",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Gus Pine receives 6.25% of net receipts."
+      },
+      {
+        "name": "Hope West",
+        "email": "",
+        "share_bps": 625,
+        "evidence": "Hope West receives 6.25% of net receipts."
+      }
+    ],
+    "expected_preview_status": 200,
+    "observed_preview": {
+      "status": 200,
+      "body": {
+        "project": "Copper Archive",
+        "currency": "USD",
+        "agreement": "This schedule records royalties for the Copper Archive monthly anthology.\n\nNera Sol receives 6.25% of net receipts.\nIvo Vale receives 6.25% of net receipts.\nMira Stone receives 6.25% of net receipts.\nTheo Reed receives 6.25% of net receipts.\nLina Moss receives 6.25% of net receipts.\nOren Hart receives 6.25% of net receipts.\nCleo Finch receives 6.25% of net receipts.\nRemy Shaw receives 6.25% of net receipts.\nAda Lane receives 6.25% of net receipts.\nBea Park receives 6.25% of net receipts.\nCy Wells receives 6.25% of net receipts.\nDee Hale receives 6.25% of net receipts.\nEli North receives 6.25% of net receipts.\nFia Lake receives 6.25% of net receipts.\nGus Pine receives 6.25% of net receipts.\nHope West receives 6.25% of net receipts.\nHope West will send her mailing address after she signs the distribution license.",
+        "transactions": [
+          {
+            "id": "sale-1",
+            "type": "sale",
+            "cents": 10000,
+            "description": ""
+          }
+        ],
+        "collaborators": [
+          {
+            "name": "Nera Sol",
+            "email": "",
+            "evidence": "Nera Sol receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ivo Vale",
+            "email": "",
+            "evidence": "Ivo Vale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Mira Stone",
+            "email": "",
+            "evidence": "Mira Stone receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Theo Reed",
+            "email": "",
+            "evidence": "Theo Reed receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Lina Moss",
+            "email": "",
+            "evidence": "Lina Moss receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Oren Hart",
+            "email": "",
+            "evidence": "Oren Hart receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cleo Finch",
+            "email": "",
+            "evidence": "Cleo Finch receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Remy Shaw",
+            "email": "",
+            "evidence": "Remy Shaw receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Ada Lane",
+            "email": "",
+            "evidence": "Ada Lane receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Bea Park",
+            "email": "",
+            "evidence": "Bea Park receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Cy Wells",
+            "email": "",
+            "evidence": "Cy Wells receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Dee Hale",
+            "email": "",
+            "evidence": "Dee Hale receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Eli North",
+            "email": "",
+            "evidence": "Eli North receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Fia Lake",
+            "email": "",
+            "evidence": "Fia Lake receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Gus Pine",
+            "email": "",
+            "evidence": "Gus Pine receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          },
+          {
+            "name": "Hope West",
+            "email": "",
+            "evidence": "Hope West receives 6.25% of net receipts.",
+            "share_bps": 625,
+            "cents": 625,
+            "amount": "6.25"
+          }
+        ],
+        "gross_cents": 10000,
+        "refund_cents": 0,
+        "fee_cents": 0,
+        "net_cents": 10000,
+        "gross": "100.00",
+        "refunds": "0.00",
+        "fees": "0.00",
+        "net": "100.00",
+        "allocation_method": "Largest remainder on net USD cents; ties resolved by collaborator name; refunds and fees deducted before split.",
+        "illustrative": false,
+        "statement_hash": "3e3aaf450c075041a87102e7dd64f05b17d3b1ad4b10e6b5ef29178c6be789d1",
+        "project_id": "legacy-9103edb3c989addab33bc13aa8838a04b572318797878964396fc4625f065ee4",
+        "allocation_name_order": [
+          8,
+          9,
+          6,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          1,
+          4,
+          2,
+          0,
+          5,
+          7,
+          3
+        ],
+        "statement_context": {},
+        "source_review": {
+          "rows": [],
+          "same_statement": null,
+          "compared_statements": 0,
+          "unchanged_ids": [],
+          "changed_ids": []
+        }
+      }
+    }
+  }
+]
